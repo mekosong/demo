@@ -5,4 +5,6 @@ app.use(async ctx => {
     ctx.body = 'Hello koa!!';
 });
 
-app.listen(3000);
+app.listen(3000, function () {
+    console.log('koa is running!');
+});
